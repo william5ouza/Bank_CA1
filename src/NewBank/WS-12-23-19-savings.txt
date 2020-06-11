@@ -1,0 +1,3 @@
+tAmount	Date
+ 0.0	2020-06-11	 New  Account WS-12-23-19-savings.txt
+ 1999.0	2020-06-11	deposit 1999.0

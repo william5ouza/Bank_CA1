@@ -139,16 +139,12 @@ public class Agency_Activities {
         int choice;
         String response = JOptionPane.showInputDialog("Welcome, please select one option\n" + 
                 "1) Show account statement\n"+
+                "2) Make a withdraw\n" +
                 "3) Make a deposit\n" +
                 "Press 4 to exit\n" );
         // user menu
         do {
-          /*  System.out.printf("Welcome, please select one option");
-            System.out.println("1) Show account statement");
-            System.out.println("2) Make a withdraw");
-            System.out.println("3) Make a deposit");
-            System.out.println("4) Quit");
-            System.out.println();*/
+         
             choice = Integer.parseInt(response);
             
             if (choice < 1 || choice > 4) {
@@ -262,7 +258,14 @@ public class Agency_Activities {
                     String line = "";
                     while ((line = bufferedReader.readLine()) != null) {
                         //display each line
-                        System.out.println(line);
+                        // JOptionPane.showMessageDialog(null,line);
+                         
+                         StringBuilder s = new StringBuilder();
+                    while ((line = bufferedReader.readLine()) != null) {
+                                s.append(line+"\t \n");
+                    }
+
+                        JOptionPane.showMessageDialog(null, s);
                     }
                     Reader.close();
                     break;

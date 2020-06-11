@@ -1,0 +1,5 @@
+tAmount	Date
+ 0.0	2020-06-11	 New  Account MS-11-13-19-savings.txt
+ 1000.0	2020-06-11	deposit 1000.0
+ 3000.0	2020-06-12	deposit 3000.0
+ 100.0	2020-06-12	deposit 100.0
