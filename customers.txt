@@ -1,0 +1,7 @@
+FirstName   LastName  AccountNumber  AccountType
+
+
+Mario	Santos	Mario	savings
+Mario	Santos	MS-11-13-19	current
+William	Souza	WS-12-23-19	savings
+William	Souza	WS-12-23-19	current
